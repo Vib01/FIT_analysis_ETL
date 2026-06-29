@@ -1,0 +1,7 @@
+fitness_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "../runs.duckdb"
+      threads: 1

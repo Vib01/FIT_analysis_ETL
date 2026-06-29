@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Database
+*.duckdb
+
+# Logs
+logs/
+*.log
+
+# dbt
+fitness_dbt/target/
+fitness_dbt/logs/
+fitness_dbt/.user.yml
+
+# Raw data
+data/raw/* 
